@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="goClean laundry">
+        <meta name="keywords" content="laundry, cuci">
+        <meta name="author" content="Ilham Muhammad Sakti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>goClean</title>
+        <link rel="icon" href="./assets/images/icongoclean.svg" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/styleReset.css">
+        <link rel="stylesheet" href="./assets/style.css">
+
+      </head>
+      <body>
+        <header>
+            <img id="logo" src="./assets/images/icongoclean2.svg" alt="goClean Logo">
+            <nav class="topnav" id="topNav">
+                <a href="javascript:void(0);" onclick="burgerNav()" class="icon" ><img id="menu" src="./assets/images/burnerMenu.jpg" alt="menu"></a>
+                <a href="#beranda">Beranda</a>
+                <a href="#alasan">Alasan</a>
+                <a href="#lok">Lokasi</a>
+                <a href="#testi">Testinomi</a>
+            </nav>
+        </header>
+
+        <main>
+            <div id="beranda"></div>
+            <article id="home">
+                <img id="clothe" src="./assets/images/pakaian.png" alt="clothes">
+                <h1>Pakaian Bersih dengan Cepat</h1>
+                <p>Membersihkan pakaian, selimut, bantal, seprai, dan sepatu Anda dengan cepat, bersih dan rapi.</p>
+                <button>Mulai Sekarang</button>
+            </article>
+            
+            <article id="partner">
+                <img src="./assets/images/partner-logo.png" alt="partner logo">
+            </article>
+
+            <div id="alasan"></div>
+            <article id="reason-id">
+                <div id="reason">
+                    <h2>Kenapa harus kami?</h2>
+                    <table>
+                        <tr>
+                            <td class="img-reason" >
+                                <img src="./assets/images/bersih.png" alt="icon bersih">
+                            </td>
+                            <td class="content-reason">
+                                <h3 class="sub-reason">Bersih</h3>
+                                <p class="paragh-reason">Menjamin pakaian Anda bersih dan sesuai harapan</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="img-reason" >
+                                <img src="./assets/images/cepat.png" alt="icon cepat">
+                            </td>
+                            <td class="content-reason">
+                                <h3 class="sub-reason">Cepat</h3>
+                                <p class="paragh-reason">Hanya dalam hitungan jam pakaian Anda dapat langsung diambil</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="img-reason" >
+                                <img src="./assets/images/antar-jemput.png" alt="icon antar jemput">
+                            </td>
+                            <td class="content-reason">
+                                <h3 class="sub-reason">Antar Jemput</h3>
+                                <p class="paragh-reason">Langsung mengantar dan menjemput sesuai lokasi</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <img id="mesin-cuci-reason" src="./assets/images/mesin-cuci.png" alt="mesin cuci">
+            </article>
+            
+            <div id="lok"></div>
+            <article id="location">
+                <h2>Cari Laundry Terdekat</h2>
+                <p>Fitur ini memungkinkan Anda untuk mencari lokasi terdekat cabang kami</p>
+                <div id="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15830.189438230516!2d112.79862269999998!3d-7.292227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1677565371660!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+
+            <div id="testi"></div>
+            <article id="testimoni">
+                <h2>Apa Kata Mereka Tentang Kami</h2>
+                <p>Penasaran apa saja review dari pelanggan yang telah menggunakan jasa kami? <br>
+                    Silahkan cek di bawah ini!</p>
+                <div class="container">
+                    <div class="card" id="first-card">
+                        <img src="./assets/images/luffy.png" alt="Monkey D. Luffy">
+                        <p>"goClean membantu membersihkan pakaian dan 
+                            topi saya"</p>
+                        <img src="./assets/images/rating.png" alt="rating">
+                        <p class="name-testimoni">Monkey D. Luffy</p>
+                        <p>Pulau Dawn</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/zoro.png" alt="Roronoa Zoro">
+                        <p>"Layanan goClean cepat juga"</p>
+                        <img src="./assets/images/rating.png" alt="rating">
+                        <p class="name-testimoni">Roronoa Zoro</p>
+                        <p>East Blue</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/nami.png" alt="Nami">
+                        <p>"Lumayan bisa antar jemput laundry"</p>
+                        <img src="./assets/images/rating.png" alt="rating">
+                        <p class="name-testimoni">Nami</p>
+                        <p>Desa Cocoyasi</p>
+                    </div>
+                </div>
+            </article>
+
+            <aside>
+                <p><b>Created by:</b></p>
+                <img src="./assets/images/foto-diri.png" alt="Foto Diri">
+                <p class="name">Ilham Muhammad Sakti</p>
+            </aside>
+        </main>
+
+        <footer>
+            &#169; 2023, Ilham Muhammad Sakti
+        </footer>
+
+        <script src="./assets/main.js"></script>
+      </body>
+</html>
